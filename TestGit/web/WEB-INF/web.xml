@@ -8,6 +8,10 @@
         <servlet-name>studentServlet</servlet-name>
         <servlet-class>Controller.studentServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>calculateServlet</servlet-name>
+        <servlet-class>Controller.calculateServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/first</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>studentServlet</servlet-name>
         <url-pattern>/student</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>calculateServlet</servlet-name>
+        <url-pattern>/cal</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
